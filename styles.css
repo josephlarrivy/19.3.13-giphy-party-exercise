@@ -1,0 +1,40 @@
+/* 
+colors:
+https://www.schemecolor.com/black-and-orange-color-palette.php
+#feb062
+#575151
+#2b2b2b
+#131313
+*/
+
+
+body {
+    background-color: #2b2b2b;
+    
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    justify-content: center;
+}
+
+#inputtext {
+    margin: 5px;
+}
+
+.button {
+    background-color: #feb062;
+    border: 0px;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
