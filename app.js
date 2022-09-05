@@ -13,12 +13,13 @@ async function getData () {
     let newDiv = document.createElement('div');
     newDiv.classList.add('gifs');
     
-    
+    newDiv.setAttribute.style.backgroundImage = `url(${response.data.data[0].url})`;
+
 
     
-    //newDiv.setAttribute.style.backgroundImage = `url(${response.data})`;
-    console.log(response.data[0].url)
-    //^^need to extract url from returned data
+    console.log(response.data.data[0].url);
+    console.log(`url(${response.data.data[0].url})`);
+
 
 
 

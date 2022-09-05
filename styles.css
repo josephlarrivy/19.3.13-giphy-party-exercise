@@ -23,6 +23,16 @@ h1 {
     justify-content: center;
 }
 
+#gifdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.gifs {
+    width: 200px;
+    height: 200px;
+}
+
 #inputtext {
     margin: 5px;
 }
